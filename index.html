@@ -197,104 +197,7 @@
 
 
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am an IT specialist with roughly two years of experience. My experience has exposed me to desktop support, Windows Server & Linux server support, Microsoft Intune MDM, Microsoft Azure/Entra ID/365 and networking. I am also currently completing my Bachelors of Science in Information Technology, with an expected graduation date of December 2025. What sets me apart is my ability to learn quickly and provide a good customer service experience.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">My Skills</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Computing</h4>
-
-                <p class="service-item-text">
-                  I have experience with Microsoft 365, Azure, Entra ID and Intune.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">System Administration</h4>
-
-                <p class="service-item-text">
-                  I have experience with Windows Server, including Active Directory, and Linux.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Technical Support</h4>
-
-                <p class="service-item-text">
-                  I have experience with both remote server support and onsite desktop support.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Hardware</h4>
-
-                <p class="service-item-text">
-                  I have experience submitting detailed remote hands requests to datacenter technicians and working on computer hardware.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-      </article>
+     
         
 
         <!-- <section class="testimonials">
@@ -487,7 +390,133 @@
         </section> -->
         
 
+      <!--
+        - #PORTFOLIO
+      -->
 
+      <article class="portfolio  active" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>System Administration</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Programming</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Scripting</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>System Administration</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Programming</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Scripting</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="system administration">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">System Administration</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="programming">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Programming</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="scripting">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Scripting</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
@@ -685,136 +714,107 @@
 
 
 
-      <!--
-        - #PORTFOLIO
+
+
+
+ <!--
+        - #ABOUT
       -->
 
-      <article class="portfolio  active" data-page="portfolio">
+      <article class="about" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <section class="projects">
+        <section class="about-text">
+          <p>
+            I am an IT specialist with roughly two years of experience. My experience has exposed me to desktop support, Windows Server & Linux server support, Microsoft Intune MDM, Microsoft Azure/Entra ID/365 and networking. I am also currently completing my Bachelors of Science in Information Technology, with an expected graduation date of December 2025. What sets me apart is my ability to learn quickly and provide a good customer service experience.
+          </p>
+        </section>
 
-          <ul class="filter-list">
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
+        <!--
+          - service
+        -->
 
-            <li class="filter-item">
-              <button data-filter-btn>System Administration</button>
-            </li>
+        <section class="service">
 
-            <li class="filter-item">
-              <button data-filter-btn>Programming</button>
-            </li>
+          <h3 class="h3 service-title">My Skills</h3>
 
-            <li class="filter-item">
-              <button data-filter-btn>Scripting</button>
-            </li>
+          <ul class="service-list">
 
-          </ul>
+            <li class="service-item">
 
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
+              <div class="service-icon-box">
+                <img src="./assets/images/logo.svg
+                " alt="design icon" width="40">
               </div>
 
-            </button>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Computing</h4>
 
-            <ul class="select-list">
+                <p class="service-item-text">
+                  I have experience with Microsoft 365, Azure, Entra ID and Intune.
+                </p>
+              </div>
 
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>System Administration</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Programming</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Scripting</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="system administration">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">System Administration</p>
-
-              </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="programming">
-              <a href="#">
+            <li class="service-item">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <div class="service-icon-box">
+                <img src="./assets/images/logo.svg" alt="Web development icon" width="40">
+              </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Administration</h4>
 
-                <h3 class="project-title">Orizon</h3>
+                <p class="service-item-text">
+                  I have experience with Windows Server, including Active Directory, and Linux.
+                </p>
+              </div>
 
-                <p class="project-category">Programming</p>
-
-              </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="scripting">
-              <a href="#">
+            <li class="service-item">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <div class="service-icon-box">
+                <img src="./assets/images/logo.svg" alt="mobile app icon" width="40">
+              </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical Support</h4>
 
-                <h3 class="project-title">Fundo</h3>
+                <p class="service-item-text">
+                  I have experience with both remote server support and onsite desktop support.
+                </p>
+              </div>
 
-                <p class="project-category">Scripting</p>
+            </li>
 
-              </a>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hardware</h4>
+
+                <p class="service-item-text">
+                  I have experience submitting detailed remote hands requests to datacenter technicians and working on computer hardware.
+                </p>
+              </div>
+
             </li>
 
           </ul>
 
         </section>
 
+
       </article>
-
-
-
 
 
       <!--
